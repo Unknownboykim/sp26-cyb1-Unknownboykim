@@ -1,47 +1,7 @@
-# Git Hooks
+## CookYourBooks Assignment 1: Recipe Domain Model
 
-This directory contains Git hooks for the project.
+Welcome to the **CookYourBooks** project! Over the course of the semester, you'll be building a comprehensive recipe management application that helps users digitize, organize, and work with their recipe collections. This application will eventually support importing recipes from various sources (including OCR from photos), storing them in a structured format, and providing both command-line and graphical interfaces for managing a personal recipe library.
 
-## Pre-commit Hook
+In this first assignment, you'll lay the foundation by implementing the core domain model for **ingredients and quantities**. You'll create two class hierarchies that work together: one for representing different types of quantities (exact, fractional, and range), and another for representing ingredients (measured and vague). These classes will be the building blocks for everything else you create this semester, so it's important to get them right!
 
-The pre-commit hook automatically runs Spotless to format code before each commit.
-
-### What it does:
-
-1. Checks if any Java or Gradle files are staged for commit
-2. Runs `./gradlew spotlessApply` to format the code
-3. Re-stages any files that were formatted
-4. Allows the commit to proceed
-
-### Installation
-
-The hook is automatically installed in `.git/hooks/pre-commit`. If you need to reinstall it:
-
-```bash
-cp .githooks/pre-commit .git/hooks/pre-commit
-chmod +x .git/hooks/pre-commit
-```
-
-### Bypassing the hook
-
-If you need to bypass the hook for a specific commit (not recommended):
-
-```bash
-git commit --no-verify
-```
-
-### Manual setup for team members
-
-Team members should run:
-
-```bash
-cp .githooks/pre-commit .git/hooks/pre-commit
-chmod +x .git/hooks/pre-commit
-```
-
-Or use the setup script:
-
-```bash
-./setup-git-hooks.sh
-```
-
+Read the complete, up-to-date specification for this assignment [on the course website](https://neu-pdi.github.io/cs3100-public-resources/assignments/cyb1-recipes).
