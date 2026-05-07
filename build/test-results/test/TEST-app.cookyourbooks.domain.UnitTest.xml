@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.cookyourbooks.domain.UnitTest" tests="128" skipped="0" failures="0" errors="0" timestamp="2026-01-15T21:08:28" hostname="BOOK-BCTNFQKMIF" time="0.376">
+  <properties/>
+  <testcase name="testImperialSystemHasExpectedUnits()" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[1] CUP, IMPERIAL, VOLUME, cup, cups" classname="app.cookyourbooks.domain.UnitTest" time="0.02"/>
+  <testcase name="[2] TABLESPOON, IMPERIAL, VOLUME, tbsp, tbsp" classname="app.cookyourbooks.domain.UnitTest" time="0.002"/>
+  <testcase name="[3] TEASPOON, IMPERIAL, VOLUME, tsp, tsp" classname="app.cookyourbooks.domain.UnitTest" time="0.003"/>
+  <testcase name="[4] FLUID_OUNCE, IMPERIAL, VOLUME, fl oz, fl oz" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[5] OUNCE, IMPERIAL, WEIGHT, oz, oz" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[6] POUND, IMPERIAL, WEIGHT, lb, lb" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[7] MILLILITER, METRIC, VOLUME, ml, ml" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[8] LITER, METRIC, VOLUME, L, L" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[9] GRAM, METRIC, WEIGHT, g, g" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[10] KILOGRAM, METRIC, WEIGHT, kg, kg" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[11] WHOLE, HOUSE, COUNT, whole, whole" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[12] PINCH, HOUSE, OTHER, pinch, pinches" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[13] DASH, HOUSE, OTHER, dash, dashes" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[14] HANDFUL, HOUSE, OTHER, handful, handfuls" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[15] TO_TASTE, HOUSE, OTHER, to taste, to taste" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[1] CUP, IMPERIAL, VOLUME, cup, cups" classname="app.cookyourbooks.domain.UnitTest" time="0.003"/>
+  <testcase name="[2] TABLESPOON, IMPERIAL, VOLUME, tbsp, tbsp" classname="app.cookyourbooks.domain.UnitTest" time="0.002"/>
+  <testcase name="[3] TEASPOON, IMPERIAL, VOLUME, tsp, tsp" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[4] FLUID_OUNCE, IMPERIAL, VOLUME, fl oz, fl oz" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[5] OUNCE, IMPERIAL, WEIGHT, oz, oz" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[6] POUND, IMPERIAL, WEIGHT, lb, lb" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[7] MILLILITER, METRIC, VOLUME, ml, ml" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[8] LITER, METRIC, VOLUME, L, L" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[9] GRAM, METRIC, WEIGHT, g, g" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[10] KILOGRAM, METRIC, WEIGHT, kg, kg" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[11] WHOLE, HOUSE, COUNT, whole, whole" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[12] PINCH, HOUSE, OTHER, pinch, pinches" classname="app.cookyourbooks.domain.UnitTest" time="0.002"/>
+  <testcase name="[13] DASH, HOUSE, OTHER, dash, dashes" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[14] HANDFUL, HOUSE, OTHER, handful, handfuls" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[15] TO_TASTE, HOUSE, OTHER, to taste, to taste" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="testCountDimensionHasExpectedUnits()" classname="app.cookyourbooks.domain.UnitTest" time="0.003"/>
+  <testcase name="testMetricSystemHasExpectedUnits()" classname="app.cookyourbooks.domain.UnitTest" time="0.002"/>
+  <testcase name="[1] CUP" classname="app.cookyourbooks.domain.UnitTest" time="0.004"/>
+  <testcase name="[2] TABLESPOON" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[3] TEASPOON" classname="app.cookyourbooks.domain.UnitTest" time="0.002"/>
+  <testcase name="[4] FLUID_OUNCE" classname="app.cookyourbooks.domain.UnitTest" time="0.002"/>
+  <testcase name="[5] OUNCE" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[6] POUND" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[7] MILLILITER" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[8] LITER" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[9] GRAM" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[10] KILOGRAM" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[11] PINCH" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[12] DASH" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[13] HANDFUL" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[14] TO_TASTE" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[15] WHOLE" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="testAllUnitsExist()" classname="app.cookyourbooks.domain.UnitTest" time="0.002"/>
+  <testcase name="[1] CUP" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[2] TABLESPOON" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[3] TEASPOON" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[4] FLUID_OUNCE" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[5] OUNCE" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[6] POUND" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[7] MILLILITER" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[8] LITER" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[9] GRAM" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[10] KILOGRAM" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[11] PINCH" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[12] DASH" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[13] HANDFUL" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[14] TO_TASTE" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[15] WHOLE" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[1] CUP, IMPERIAL, VOLUME, cup, cups" classname="app.cookyourbooks.domain.UnitTest" time="0.002"/>
+  <testcase name="[2] TABLESPOON, IMPERIAL, VOLUME, tbsp, tbsp" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[3] TEASPOON, IMPERIAL, VOLUME, tsp, tsp" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[4] FLUID_OUNCE, IMPERIAL, VOLUME, fl oz, fl oz" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[5] OUNCE, IMPERIAL, WEIGHT, oz, oz" classname="app.cookyourbooks.domain.UnitTest" time="0.002"/>
+  <testcase name="[6] POUND, IMPERIAL, WEIGHT, lb, lb" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[7] MILLILITER, METRIC, VOLUME, ml, ml" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[8] LITER, METRIC, VOLUME, L, L" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[9] GRAM, METRIC, WEIGHT, g, g" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[10] KILOGRAM, METRIC, WEIGHT, kg, kg" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[11] WHOLE, HOUSE, COUNT, whole, whole" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[12] PINCH, HOUSE, OTHER, pinch, pinches" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[13] DASH, HOUSE, OTHER, dash, dashes" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[14] HANDFUL, HOUSE, OTHER, handful, handfuls" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[15] TO_TASTE, HOUSE, OTHER, to taste, to taste" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="testVolumeDimensionHasExpectedUnits()" classname="app.cookyourbooks.domain.UnitTest" time="0.003"/>
+  <testcase name="[1] CUP, IMPERIAL, VOLUME, cup, cups" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[2] TABLESPOON, IMPERIAL, VOLUME, tbsp, tbsp" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[3] TEASPOON, IMPERIAL, VOLUME, tsp, tsp" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[4] FLUID_OUNCE, IMPERIAL, VOLUME, fl oz, fl oz" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[5] OUNCE, IMPERIAL, WEIGHT, oz, oz" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[6] POUND, IMPERIAL, WEIGHT, lb, lb" classname="app.cookyourbooks.domain.UnitTest" time="0.002"/>
+  <testcase name="[7] MILLILITER, METRIC, VOLUME, ml, ml" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[8] LITER, METRIC, VOLUME, L, L" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[9] GRAM, METRIC, WEIGHT, g, g" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[10] KILOGRAM, METRIC, WEIGHT, kg, kg" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[11] WHOLE, HOUSE, COUNT, whole, whole" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[12] PINCH, HOUSE, OTHER, pinch, pinches" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[13] DASH, HOUSE, OTHER, dash, dashes" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[14] HANDFUL, HOUSE, OTHER, handful, handfuls" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[15] TO_TASTE, HOUSE, OTHER, to taste, to taste" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[1] CUP" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[2] TABLESPOON" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[3] TEASPOON" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[4] FLUID_OUNCE" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[5] OUNCE" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[6] POUND" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[7] MILLILITER" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[8] LITER" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[9] GRAM" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[10] KILOGRAM" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[11] PINCH" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[12] DASH" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[13] HANDFUL" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[14] TO_TASTE" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[15] WHOLE" classname="app.cookyourbooks.domain.UnitTest" time="0.002"/>
+  <testcase name="testHouseSystemHasExpectedUnits()" classname="app.cookyourbooks.domain.UnitTest" time="0.002"/>
+  <testcase name="testOtherDimensionHasExpectedUnits()" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[1] CUP" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[2] TABLESPOON" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[3] TEASPOON" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[4] FLUID_OUNCE" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[5] OUNCE" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[6] POUND" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[7] MILLILITER" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[8] LITER" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[9] GRAM" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[10] KILOGRAM" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[11] PINCH" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[12] DASH" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[13] HANDFUL" classname="app.cookyourbooks.domain.UnitTest" time="0.0"/>
+  <testcase name="[14] TO_TASTE" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="[15] WHOLE" classname="app.cookyourbooks.domain.UnitTest" time="0.001"/>
+  <testcase name="testWeightDimensionHasExpectedUnits()" classname="app.cookyourbooks.domain.UnitTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

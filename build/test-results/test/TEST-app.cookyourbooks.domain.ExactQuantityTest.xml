@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.cookyourbooks.domain.ExactQuantityTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-01-15T21:08:28" hostname="BOOK-BCTNFQKMIF" time="0.042">
+  <properties/>
+  <testcase name="Constructor accepts positive amount" classname="app.cookyourbooks.domain.ExactQuantityTest" time="0.006"/>
+  <testcase name="toString trims trailing zeros" classname="app.cookyourbooks.domain.ExactQuantityTest" time="0.016"/>
+  <testcase name="toString uses singular unit when amount is exactly 1.0" classname="app.cookyourbooks.domain.ExactQuantityTest" time="0.001"/>
+  <testcase name="toString uses plural unit when amount is not 1.0" classname="app.cookyourbooks.domain.ExactQuantityTest" time="0.001"/>
+  <testcase name="Constructor rejects negative amount" classname="app.cookyourbooks.domain.ExactQuantityTest" time="0.002"/>
+  <testcase name="toString limits decimal places to DECIMAL_PRECISION" classname="app.cookyourbooks.domain.ExactQuantityTest" time="0.002"/>
+  <testcase name="toDecimal returns the exact amount" classname="app.cookyourbooks.domain.ExactQuantityTest" time="0.001"/>
+  <testcase name="Constructor rejects zero amount" classname="app.cookyourbooks.domain.ExactQuantityTest" time="0.002"/>
+  <testcase name="toString omits decimal point for whole numbers" classname="app.cookyourbooks.domain.ExactQuantityTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

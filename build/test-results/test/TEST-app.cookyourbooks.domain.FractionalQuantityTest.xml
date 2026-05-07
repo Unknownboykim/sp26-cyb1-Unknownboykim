@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.cookyourbooks.domain.FractionalQuantityTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-01-15T21:08:28" hostname="BOOK-BCTNFQKMIF" time="0.046">
+  <properties/>
+  <testcase name="negativeWholeThrows()" classname="app.cookyourbooks.domain.FractionalQuantityTest" time="0.006"/>
+  <testcase name="toStringMixedNumber()" classname="app.cookyourbooks.domain.FractionalQuantityTest" time="0.02"/>
+  <testcase name="toStringProperFraction()" classname="app.cookyourbooks.domain.FractionalQuantityTest" time="0.006"/>
+  <testcase name="toDecimalMixedNumber()" classname="app.cookyourbooks.domain.FractionalQuantityTest" time="0.001"/>
+  <testcase name="zeroDenominatorThrows()" classname="app.cookyourbooks.domain.FractionalQuantityTest" time="0.001"/>
+  <testcase name="toStringWholeOne()" classname="app.cookyourbooks.domain.FractionalQuantityTest" time="0.001"/>
+  <testcase name="negativeNumeratorThrows()" classname="app.cookyourbooks.domain.FractionalQuantityTest" time="0.001"/>
+  <testcase name="zeroWholeAndNumeratorThrows()" classname="app.cookyourbooks.domain.FractionalQuantityTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

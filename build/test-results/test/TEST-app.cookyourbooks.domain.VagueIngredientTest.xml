@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.cookyourbooks.domain.VagueIngredientTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-01-15T21:08:28" hostname="BOOK-BCTNFQKMIF" time="0.071">
+  <properties/>
+  <testcase name="fullFormatting()" classname="app.cookyourbooks.domain.VagueIngredientTest" time="0.053"/>
+  <testcase name="blankNameThrows()" classname="app.cookyourbooks.domain.VagueIngredientTest" time="0.006"/>
+  <testcase name="nameAndDescription()" classname="app.cookyourbooks.domain.VagueIngredientTest" time="0.002"/>
+  <testcase name="nameOnly()" classname="app.cookyourbooks.domain.VagueIngredientTest" time="0.001"/>
+  <testcase name="nameAndPreparation()" classname="app.cookyourbooks.domain.VagueIngredientTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
